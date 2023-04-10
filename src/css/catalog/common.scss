@@ -1,0 +1,47 @@
+@import '_fonts.scss';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1320px;
+}
